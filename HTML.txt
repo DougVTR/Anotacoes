@@ -1,0 +1,110 @@
+Informações
+
+-- É possível utilizar aspas duplas "" ou simples '', mas é sempre recomendado utilizara aspas 
+duplas e sem omiti-las;
+-- O site https://developer.mozilla.org/pt-BR é um ótimo local para consulta;
+-- Um atributo sempre deve ter um espaço entre ele e o nome do elemento, o nome do atributo
+seguido por um sinal de igual e aspas de abertura e fechamento, envolvendo todo o valor do
+atributo;
+-- Especificar uma descrição que inclua palavras-chave relacionadas ao conteúdo da sua página 
+é útil porque tem potencial para tornar sua página mais alta nas pesquisas relevantes realizadas
+nos mecanismos de busca;
+
+=====================================================================================================
+Atributos
+
+* <-- "Conteudo" --> - Abre uma tag de comentários que não farão parte do código em si;
+* disabled - É um atributo que desabilita a interação com a tag em que esta atuando;
+* class - permite que você forneça ao elemento um identificador, para utiliza-la no CSS ou JS;
+* contenteditable - Permite a edição do conteudo de dentro da tag. Se a página for recarregada
+o conteudo editado é perdido;
+* hidden - É utilizado para esconder o conteúdo de uma tag;
+* id - É utilizado para identificar uma tag única;
+* style - Permite a utilização de CSS dentro da tag;
+* tabindex="numero" - Diz a ordem de seleção quando a tecla tab é apertada;
+* title - Define um título para a tag quando o mouse é posicionado acima dela por um tempo;
+* lang="pt-BR" - Define o idioma de sua página;
+
+======================================================================================================
+Elementos
+
+# <!DOCTYPE html> - Informa ao navegador o tipo do documento. São basicamente necessários 
+apenas para garantir que o documento se comporte corretamente;
+# <html></html> - Esse elemento envolve todo o conteúdo da página, é conhecido como o elemento raiz;
+# <head></head> - Recipiente de tudo o que você deseja incluir em uma página HTML que não é o conteúdo 
+que você quer mostrar para quem vê sua página;
+# <meta charset="utf-8"> - Define o conjunto de caracteres que seu documento deve usar. O utf-8 inclui
+praticamente todos os caracteres existentes;
+# <meta name="author" content="Nome do autor"> - Define o autor da página;
+# <meta name="description" content="Descrição da página"> - Fornece uma descrição concisa da página;
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> - Adiciona um ícone favorito que é
+exibido na guia do navegador que contém cada página aberta e ao lado de páginas marcadas no painel de 
+favoritos;
+# <title></title> - Define o título da sua página;
+# <body></body> - Contém todo o conteúdo que você quer mostrar ao público;
+# <strong> Palavra </strong> - Fornece enfase a palavra, deixando-a em negrito;
+# <em></em> - Deixa uma palavra em itálico;
+# <img src="diretorio da foto" alt="Descrição da foto"> - Insere uma imagem ao HTML.;
+# <h1> - <h6> - São elementos de cabeçalhos que permitem especificar que certas partes 
+do seu conteúdo são títulos ou subtítulos;
+# <p></p> - Especificam um parágrafo de texto;
+# <br></br> - cria uma quebra de linha em um parágrafo; é a única maneira de forçar uma estrutura rígida 
+em uma situação em que você deseja uma série de linhas curtas fixas, como em um endereço postal ou um poema;
+# <hr></hr> - Criam uma regra horizontal no documento que indica uma alteração temática no texto (como uma 
+alteração no tópico ou na cena). Visualmente, apenas se parece com uma linha horizontal;
+# <ul></ul> - Cria uma lista não ordenada;
+# <ol></ol> - Cria uma lista ordenada;
+# <li></li> - Refere a um item dentro de uma lista;
+# <a href="site" title="Titulo do link"> Texto </a> - Incorpora um link de redirecionamento para um site;
+# <a href="mailto:email@email.com"></a> - Indica o endereço de e-mail do destinatário pretendido
+# <dl></dl> - Cria uma lista de descrição;
+# <dt></dt> - Cria um termo de descrição para a "dl";
+# <dd></dd> - Cria uma definição de descrição para a "dt" que esta dentro da "dl";
+# <abbr title="Titulo inteiro">TI</abbr> - Usado para contornar uma abreviação ou sigla e fornecer uma 
+expansão completa do termo ;
+# <sup>texto</sup> - Transforma o texto em uma subrescrita (em cima);
+# <sub>texto</sub> - Transforma o texto em uma subscrita (em baixo);
+# <code></code> - Apresenta seu conteúdo estilizado de maneira a indicar que o texto é um pequeno fragmento
+de código;
+# <pre></pre> - utilizada para representar texto pré-formatado. Um texto dentro desse elemento é tipicamente 
+exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços
+em branco são mantidos no texto da mesma forma em que este foi digitado;
+# <kbd>tecla</kbd> - Usado para marcar a entrada do teclado (e outros tipos) inserida no computador;
+# <time datetime="2022-06-22"> 22 de junho de 2022 </time> - Serve para marcar horários e datas em um formato 
+legível por máquina;
+# <header></header> - Tag para inserção do cabeçalho da página;
+# <nav></nav> - Tag para inserção da barra de navegação do site;
+# <main></main> - Local onde o conteúdo da página será exposto;
+# <article></article> - Tag que vai dentro do "main" responsável por referenciar o conteúdo independente de um
+documento, página, aplicação, ou site, como por exemplo o posto de um fórum, um artigo de revista ou jornal, um
+comentário, etc., inclui um bloco de conteúdo relacionado o qual faz sentido por si só, sem o restante da página 
+(por exemplo, uma postagem singular dum blog);
+# <section></section> - Representa uma seção genérica contida em um documento HTML, geralmente com um título, 
+quando não existir um elemento semântico mais específico para representá-lo. Por exemplo uma lista de resultados 
+de pesquisa ou a exibição de um mapa e seus controles não possuem elementos específicos, e podem ser colocados 
+dentro de uma <section>;
+# <div></div> - é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode 
+ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores 
+de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (tal como 
+<article> ou <nav>), é um elemento não semântico no nível de bloco, que você deve usar apenas se não conseguir pensar 
+em um elemento de bloco semântico melhor para usar ou se não quiser adicionar um significado específico;
+# <footer></footer> - Representa um rodapé para o seu sectioning content (conteúdo de seção) mais próximo;
+# <aside></aside> - É para conteúdo que não está relacionados diretamente com os conteúdos principais, mas que podem 
+providenciar informações complementares a esses (entradas de glossários, biografia do autor, links relacionados, etc.);
+# <span></span> - É um elemento não-semântico embutido, que você deve usar apenas se não conseguir pensar em um elemento 
+de texto semântico melhor para agrupar seu conteúdo ou se não quiser adicionar um significado específico;
+
+=========================================================================================================
+Anatomia padrão de um HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Titulo da Página</title>
+  </head>
+  <body>
+  </body>
+</html>
+
+==========================================================================================================
