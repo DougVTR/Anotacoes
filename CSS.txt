@@ -1,0 +1,37 @@
+Informações
+
+-- CSS Normalize é uma folha de estilos padrão que redefine algumas configurações dos navegadores
+para evitar erros. Pode ser encontrada no link: https://necolas.github.io/normalize.css/ e atribuida
+ao seu projeto;
+-- Para implementar um estilo de fonte ao seu projeto de maneira mais fácil, é recomendado utilizar
+o site https://fonts.google.com/ e colocar o código da fonte em seu CSS.
+
+=====================================================================================================
+Propriedades
+
+# backgroud - Altera propriedades da tela de fundo;
+# color - Muda a cor do texto;
+# font-size - Altera o tamanho do texto;
+# font-style - Altera o estilo do texto;
+# :link - Estiliza links ainda não visitador;
+# :hover - Estiliza elementos onde o mouse esta posicionado a cima;
+# :visited - Estiliza links que ja foram visitados;
+# ::after - Cria um elemento ou conteúdo no final do elemento pai;
+# align-content - Define a distribuição entre e ao redor dos items do conteúdo dentro de um flexbox;
+# align-content: center - Distribui o item ao centro do flexbox;
+# align-content: start - Distribui o item ao inicio do flexbox;
+# align-content: end - Distribui o item ao final do flexbox;
+# align-content: space-between - Os itens são distribuídos uniformemente dentro do contêiner de alinhamento.
+O espaçamento entre cada par de itens adjacentes é o mesmo. O primeiro item é alinhado com a borda inicial 
+do contêiner de alinhamento no eixo cruzado e o último item é alinhado com a borda final do contêiner de 
+alinhamento no eixo cruzado;
+# align-content: space-around - Os itens são distribuídos uniformemente dentro do contêiner de alinhamento.
+O espaçamento entre cada par de itens adjacentes é o mesmo. O espaço vazio antes do primeiro e depois do 
+último item é igual à metade do espaço entre cada par de itens adjacentes;
+# align-content: space-evenly - Os itens são distribuídos uniformemente dentro do contêiner de alinhamento 
+ao longo do eixo cruzado. O espaçamento entre cada par de itens adjacentes, a borda inicial e o primeiro item, 
+e a borda final e o último item, são exatamente iguais;
+# align-content: stretch - Se o tamanho combinado dos itens ao longo do eixo cruzado for menor que o tamanho 
+do contêiner de alinhamento, todos os itens de dimensionamento automático terão seu tamanho aumentado igualmente 
+(não proporcionalmente), respeitando as restrições impostas por max-height/max-width (ou funcionalidade equivalente), 
+para que o tamanho combinado preencha exatamente o contêiner de alinhamento ao longo do eixo cruzado;
